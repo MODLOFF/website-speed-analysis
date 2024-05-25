@@ -1,0 +1,89 @@
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+#loading .spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.results {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.results h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.results p {
+    margin: 10px 0;
+}
+
+.results p strong {
+    color: #343a40;
+}
+
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.btn-analyze {
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.btn-analyze:hover {
+    background-color: #138496;
+    border-radius: 6px;
+}
+
+.btn {
+    border-radius: 20px; 
+}
+
+.btn-primary {
+    background-color: #ff5100; 
+    border-color: #ff5100;
+}
+
+.btn-primary:hover {
+    background-color: #f17e3c;
+    border-color: #f07d11; 
+}

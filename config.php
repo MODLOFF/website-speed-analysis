@@ -1,0 +1,3 @@
+<?php
+$domain = "http://localhost";
+?>
